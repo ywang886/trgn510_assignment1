@@ -1,0 +1,73 @@
+    1  trgn.usc.edu
+    2  /home/jovyan/mydir
+    3  pwd
+    4  ls
+    5  cd ..
+    6  ls
+    7  cd ywang886-F22
+    8  ls
+    9  passwd
+   10  mkdir bin
+   11  mkdir scripts
+   12  ls 
+   13  ls -h
+   14  ls -d
+   15  ls
+   16  mkdir projects
+   17  ls
+   18  rmdir bin
+   19  ls
+   20  mkdir bin
+   21  ls
+   22  exit
+   23  ls
+   24  mkdir assignments
+   25  ls
+   26  cd assignments/
+   27  git clone
+   28  git clone https://github.com/ywang886/trgn510_assignment1.git
+   29  ls
+   30  cd trgn510_assignment1/
+   31  ls
+   32  vim README.md 
+   33  ls
+   34  vim README.md 
+   35  pwd
+   36  ls
+   37  ls -l
+   38  ls
+   39  cat README.md 
+   40  vim README.md 
+   41  cat README.md 
+   42  vim README.md 
+   43  cat README.md 
+   44  ls
+   45  cd ..\
+   46  ls
+   47  cd ..
+   48  ls
+   49  pwd
+   50  ls
+   51  cd trgn510_assignment1/
+   52  pwd
+   53  git add . -A
+   54  git commit -m "First commit"
+   55  git config --global user.email "ywang886@usc.edu"
+   56  git config --global user.name "Your Name"
+   57  git config --global user.name "ywang886"
+   58  git commit -m "First commit"
+   59  git push
+   60  pwd
+   61  ls
+   62  cd assignments/
+   63  cd trgn510_assignment1/
+   64  pwd
+   65  mkdir problem1
+   66  ls
+   67  cd problem1/
+   68  pwd
+   69  mkdir myhistory.txt
+   70  cd myhistory.txt/
+   71  pwd
+   72  history
+   73  history > myhistory.problem1.txt

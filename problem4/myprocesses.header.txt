@@ -1,0 +1,6 @@
+# My processes
+root      89238   2370  0 17:03 ?        00:00:00 sshd: ywang886-F22 [priv]
+ywang88+  89264  89238  0 17:03 ?        00:00:00 sshd: ywang886-F22@pts/0
+root      89962   2370  0 17:14 ?        00:00:00 sshd: ywang886-F22 [priv]
+ywang88+  89977  89962  0 17:14 ?        00:00:00 sshd: ywang886-F22@pts/2
+ywang88+  94450  89978  0 18:33 pts/2    00:00:00 grep --color=auto ywang886-F22

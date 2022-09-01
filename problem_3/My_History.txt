@@ -1,0 +1,247 @@
+    1  trgn.usc.edu
+    2  /home/jovyan/mydir
+    3  pwd
+    4  ls
+    5  cd ..
+    6  ls
+    7  cd ywang886-F22
+    8  ls
+    9  passwd
+   10  mkdir bin
+   11  mkdir scripts
+   12  ls 
+   13  ls -h
+   14  ls -d
+   15  ls
+   16  mkdir projects
+   17  ls
+   18  rmdir bin
+   19  ls
+   20  mkdir bin
+   21  ls
+   22  exit
+   23  ls
+   24  mkdir assignments
+   25  ls
+   26  cd assignments/
+   27  git clone
+   28  git clone https://github.com/ywang886/trgn510_assignment1.git
+   29  ls
+   30  cd trgn510_assignment1/
+   31  ls
+   32  vim README.md 
+   33  ls
+   34  vim README.md 
+   35  pwd
+   36  ls
+   37  ls -l
+   38  ls
+   39  cat README.md 
+   40  vim README.md 
+   41  cat README.md 
+   42  vim README.md 
+   43  cat README.md 
+   44  ls
+   45  cd ..\
+   46  ls
+   47  cd ..
+   48  ls
+   49  pwd
+   50  ls
+   51  cd trgn510_assignment1/
+   52  pwd
+   53  git add . -A
+   54  git commit -m "First commit"
+   55  git config --global user.email "ywang886@usc.edu"
+   56  git config --global user.name "Your Name"
+   57  git config --global user.name "ywang886"
+   58  git commit -m "First commit"
+   59  git push
+   60  pwd
+   61  ls
+   62  cd assignments/
+   63  cd trgn510_assignment1/
+   64  pwd
+   65  mkdir problem1
+   66  ls
+   67  cd problem1/
+   68  pwd
+   69  mkdir myhistory.txt
+   70  cd myhistory.txt/
+   71  pwd
+   72  history
+   73  history > myhistory.problem1.txt
+   74  pwd
+   75  cat myhistory.problem1.txt 
+   76  ls
+   77  cd assignments/
+   78  ls
+   79  cd trgn510_assignment1/
+   80  mkdir problem2
+   81  ls
+   82  pwd
+   83  cp /data/bashrc_sample ~/assignments/trgn_assignment1/problem2/.
+   84  pwd
+   85  cp /data/bashrc_sample ~/assignments/trgn_assignment1/problem2/
+   86  cd problem2
+   87  pwd
+   88  cp /data/bashrc_sample ~/assignments/trgn_assignment1/problem2/.
+   89  cd data
+   90  cd /data
+   91  ls
+   92  cd -
+   93  cd /data
+   94  cd bashrc_sample 
+   95  cp /data/bashrc_sample ~/assignments/trgn_assignment1/problem2/.
+   96  cp /data/bashrc_sample ~/assignments/trgn510_assignment1/problem2/.
+   97  ls
+   98  cd -
+   99  ls
+  100  cd ~/assignments/trgn_assignment1/problem2/.
+  101  cd ~/assignments/trgn510_assignment1/problem2/.
+  102  ls
+  103  vim bashrc_sample 
+  104  source ~/assignments/trgn_assignment1/problem2/bashrc_sample
+  105  source ~/assignments/trgn510_assignment1/problem2/bashrc_sample
+  106  cp ~/assignments/trgn510_assignment1/problem2/bashrc_sample ~/.bashrc
+  107  cp /home/data/vimrc ~/assignments/trgn510_assignment1/problem2/
+  108  ls
+  109  cp vimrc ~/.vimrc
+  110  ls
+  111  vim vimrc 
+  112  pwd
+  113  ..
+  114  ls
+  115  ..
+  116  cd assignments/
+  117  ..
+  118  cd ..
+  119  cd ~
+  120  pwd
+  121  ls
+  122  mkdir example_class
+  123  ls
+  124  cd example_class/
+  125  pwd
+  126  wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz
+  127  gunzip Homo_sapiens.GRCh37.75.gtf.gz
+  128  less Homo_sapiens.GRCh37.75.gtf
+  129  vi Homo_sapiens.GRCh37.75.gtf
+  130  cut -f3 Homo_sapiens.GRCh37.75.gtf | head
+  131  vim Homo_sapiens.GRCh37.75.gtf 
+  132  [wd
+  133  pwd
+  134  awk '$3 ~ /gene/ { print $2,$1,$4,$5}' Homo_sapiens.GRCh37.75.gtf | head
+  135  awk '$3 ~ /gene/ { print $2,$1,$4,$5}' Homo_sapiens.GRCh37.75.gtf | head | sed 's/ /,/g'
+  136  awk '$3 ~ /gene/ { print $2,$1,$4,$5}' Homo_sapiens.GRCh37.75.gtf | sed 's/ /,/g' > gene_dist.csv
+  137  ls
+  138  pwd
+  139  sed -e "1ifeature,chr,start,end" gene_dist.csv > gene_dist_head.csv
+  140  ls -l
+  141  less gene_dist_head.csv
+  142  echo $PATH
+  143  echo $USER
+  144  history
+  145  echo hello
+  146  echo "hello" #don't answer
+  147  $myfavoritecolor="pink"
+  148  $echo $myfavoritecolor
+  149  pwd
+  150  cd ~
+  151  find -name"bash"
+  152  find -name "bash"
+  153  ls
+  154  find . -name "bash"
+  155  ls
+  156  cd ~
+  157  ls
+  158  mkdir math
+  159  cd math/
+  160  let a=5+8
+  161  echo #a
+  162  echo $a
+  163  myfavoritecolor="pink"
+  164  echo $myfavoritecolor
+  165  pwd
+  166  ls
+  167  cd ~/assignments/trgn_assignment1/problem2/.
+  168  cd ~/assignments/trgn510_assignment1/problem2/.
+  169  ls
+  170  vim bashrc_sample 
+  171  pwd
+  172  ls
+  173  source ~/assignments/trgn510_assignment1/problem2/bashrc_sample
+  174  exit
+  175  ls
+  176  pwd
+  177  cd assignments/
+  178  ls
+  179  cd trgn510_assignment1/
+  180  ls
+  181  cd problem2
+  182  ls
+  183  source bashrc_sample 
+  184  source ~/assignments/trgn_assignment1/problem2/bashrc_sample
+  185  source ~/assignments/trgn510_assignment1/problem2/bashrc_sample
+  186  cp ~/assignments/trgn510_assignment1/problem2/bashrc_sample ~/.bashrc
+  187  ls
+  188  cp vimrc ~/.vimrc
+  189  ls
+  190  exit
+  191  ls
+  192  cd ~
+  193  ls
+  194  ls -d
+  195  ls
+  196  vim ~/.bashrc
+  197  source ~/.bashrc
+  198  exit
+  199  vim ~/.bashrc
+  200  source ~/.bashrc
+  201  ls
+  202  cd assignments/
+  203  cd trgn510_assignment1/
+  204  pwd
+  205  mkdir problem_3
+  206  ls
+  207  ls -l
+  208  cd problem_3/
+  209  pwd
+  210  mkdir history.txt
+  211  cd history.txt/
+  212  pwd
+  213  history > myhistory.problem_3.txt
+  214  cd ..
+  215  pwd
+  216  cat history.txt/
+  217  cd ...
+  218  cd history.txt/
+  219  ls
+  220  rm myhistory.problem_3.txt 
+  221  ls
+  222  cd ..
+  223  ls
+  224  rm history.txt/
+  225  ls
+  226  pwd
+  227  ls
+  228  ls history.txt/
+  229  cd history.txt/
+  230  ls
+  231  cd ..
+  232  ls
+  233  rmdir history.txt/
+  234  ls
+  235  history
+  236  pwd
+  237  vim history.txt
+  238  ls
+  239  pwd
+  240  ls
+  241  history > history.txt
+  242  cat history.txt 
+  243  vim history.txt 
+  244  pwd
+  245  rm history.txt 
+  246  vim My_History.txt
+  247  history > My_History.txt
